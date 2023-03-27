@@ -133,6 +133,10 @@ function draw() {
       k[i].kfollow();
     }
   }
+  //Click to feed
+  fill(100);
+  textSize(30);
+  text("Click to feed!",windowWidth/2, windowHeight/2-350);
 }
 
 class Pool {
