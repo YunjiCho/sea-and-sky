@@ -134,9 +134,11 @@ function draw() {
     }
   }
   //Click to feed
-  fill(100);
+
+    fill(105);
   textSize(30);
-  text("Click to feed!",windowWidth/2, windowHeight/2-350);
+  txt = text("Click to feed!",960, windowHeight/2-350);
+
 }
 
 class Pool {
